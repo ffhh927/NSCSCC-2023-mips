@@ -1,0 +1,194 @@
+/*
+
+Xilinx Vivado v2019.2 (64-bit) [Major: 2019, Minor: 2]
+SW Build: 2708876 on Wed Nov  6 21:40:23 MST 2019
+IP Build: 2700528 on Thu Nov  7 00:09:20 MST 2019
+
+Process ID (PID): 31640
+License: Customer
+
+Current time: 	Wed Aug 02 23:47:31 GMT+08:00 2023
+Time zone: 	GMT+08:00 (GMT+08:00)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1920x1080
+Screen resolution (DPI): 125
+Available screens: 1
+Available disk space: 38 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=15
+
+Java version: 	9.0.4 64-bit
+Java home: 	D:/vivado/Vivado/2019.2/tps/win64/jre9.0.4
+Java executable location: 	D:/vivado/Vivado/2019.2/tps/win64/jre9.0.4/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	HP
+User home directory: C:/Users/HP
+User working directory: E:/cpu/a_pass/icache_success/fpga_template_mips_utf8_v1.0
+User country: 	CN
+User language: 	zh
+User locale: 	zh_CN
+
+RDI_BASEROOT: D:/vivado/Vivado
+HDI_APPROOT: D:/vivado/Vivado/2019.2
+RDI_DATADIR: D:/vivado/Vivado/2019.2/data
+RDI_BINDIR: D:/vivado/Vivado/2019.2/bin
+
+Vivado preferences file location: C:/Users/HP/AppData/Roaming/Xilinx/Vivado/2019.2/vivado.xml
+Vivado preferences directory: C:/Users/HP/AppData/Roaming/Xilinx/Vivado/2019.2/
+Vivado layouts directory: C:/Users/HP/AppData/Roaming/Xilinx/Vivado/2019.2/layouts
+PlanAhead jar file location: 	D:/vivado/Vivado/2019.2/lib/classes/planAhead.jar
+Vivado log file location: 	E:/cpu/a_pass/icache_success/fpga_template_mips_utf8_v1.0/vivado.log
+Vivado journal file location: 	E:/cpu/a_pass/icache_success/fpga_template_mips_utf8_v1.0/vivado.jou
+Engine tmp dir: 	E:/cpu/a_pass/icache_success/fpga_template_mips_utf8_v1.0/.Xil/Vivado-31640-LAPTOP-7OB1NM4U
+
+Xilinx Environment Variables
+----------------------------
+XILINX: D:/vivado/Vivado/2019.2/ids_lite/ISE
+XILINX_DSP: D:/vivado/Vivado/2019.2/ids_lite/ISE
+XILINX_PLANAHEAD: D:/vivado/Vivado/2019.2
+XILINX_VIVADO: D:/vivado/Vivado/2019.2
+XILINX_VIVADO_HLS: D:/vivado/Vivado/2019.2
+
+
+GUI allocated memory:	154 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 644 MB
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bB (cr):  Open Project : addNotify
+// Opening Vivado Project: E:\cpu\a_pass\icache_success\fpga_template_mips_utf8_v1.0\thinpad_top.xpr. Version: Vivado v2019.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project E:/cpu/a_pass/icache_success/fpga_template_mips_utf8_v1.0/thinpad_top.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 122 MB (+125883kb) [00:00:13]
+// [Engine Memory]: 724 MB (+607574kb) [00:00:13]
+// [Engine Memory]: 777 MB (+17747kb) [00:00:15]
+// WARNING: HEventQueue.dispatchEvent() is taking  3970 ms.
+// Tcl Message: open_project E:/cpu/a_pass/icache_success/fpga_template_mips_utf8_v1.0/thinpad_top.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'E:/cpu/a_pass/3/fpga_template_mips_utf8_v5.0' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/vivado/Vivado/2019.2/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 779 MB. GUI used memory: 57 MB. Current time: 8/2/23, 11:47:36 PM GMT+08:00
+// Tcl Message: open_project: Time (s): cpu = 00:00:17 ; elapsed = 00:00:07 . Memory (MB): peak = 803.824 ; gain = 142.348 
+// Project name: thinpad_top; location: E:/cpu/a_pass/icache_success/fpga_template_mips_utf8_v1.0; part: xc7a200tfbg676-2
+dismissDialog("Open Project"); // bB (cr)
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// HMemoryUtils.trashcanNow. Engine heap size: 806 MB. GUI used memory: 56 MB. Current time: 8/2/23, 11:48:08 PM GMT+08:00
+// Elapsed time: 163 seconds
+selectButton(PAResourceQtoS.SyntheticaStateMonitor_CANCEL, "Cancel"); // h (Q, cr)
+// bB (cr):  Resetting Runs : addNotify
+selectButton("OptionPane.button", "Cancel Process"); // JButton (A, G)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+dismissDialog("Resetting Runs"); // bB (cr)
+// PAPropertyPanels.initPanels (fifo_generator_0.xci) elapsed time: 0.2s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, fifo_generator_0 (fifo_generator_0.xci)]", 4, false); // B (F, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, fifo_generator_0 (fifo_generator_0.xci)]", 4, false, false, false, false, false, true); // B (F, cr) - Double Click
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+// TclEventType: LOAD_FEATURE
+// O (cr):  Re-customize IP : addNotify
+// r (cr): Re-customize IP: addNotify
+// [Engine Memory]: 829 MB (+13621kb) [00:03:08]
+// WARNING: HEventQueue.dispatchEvent() is taking  1929 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 829 MB. GUI used memory: 70 MB. Current time: 8/2/23, 11:50:29 PM GMT+08:00
+dismissDialog("Re-customize IP"); // O (cr)
+dismissDialog("Re-customize IP"); // r (cr)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, thinpad_top (thinpad_top.v)]", 2); // B (F, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, thinpad_top (thinpad_top.v), clock_gen : pll_example (pll_example.xci)]", 3, false); // B (F, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, thinpad_top (thinpad_top.v), clock_gen : pll_example (pll_example.xci)]", 3, false); // B (F, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, thinpad_top (thinpad_top.v), clock_gen : pll_example (pll_example.xci)]", 3, false, false, false, false, false, true); // B (F, cr) - Double Click
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+// O (cr):  Re-customize IP : addNotify
+// r (cr): Re-customize IP: addNotify
+// [Engine Memory]: 997 MB (+132971kb) [00:03:21]
+// WARNING: HEventQueue.dispatchEvent() is taking  1311 ms.
+dismissDialog("Re-customize IP"); // O (cr)
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "Output Clocks", 1); // cU (E, r)
+dismissDialog("Re-customize IP"); // r (cr)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (O, cr)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (cr): No Implementation Results Available: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// bB (cr):  Resetting Runs : addNotify
+// f (cr): Launch Runs: addNotify
+dismissDialog("No Implementation Results Available"); // A (cr)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// [GUI Memory]: 139 MB (+11450kb) [00:03:28]
+dismissDialog("Launch Runs"); // f (cr)
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 8 
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// bB (cr):  Generate Bitstream : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_STATUS_CHANGE
+// Tcl Message: [Wed Aug  2 23:50:49 2023] Launched synth_1... Run output will be captured here: E:/cpu/a_pass/icache_success/fpga_template_mips_utf8_v1.0/thinpad_top.runs/synth_1/runme.log [Wed Aug  2 23:50:49 2023] Launched impl_1... Run output will be captured here: E:/cpu/a_pass/icache_success/fpga_template_mips_utf8_v1.0/thinpad_top.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bB (cr)
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 97 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, thinpad_top (thinpad_top.v), mycpu_1 : mycpu (mycpu.v)]", 6); // B (F, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, thinpad_top (thinpad_top.v), mycpu_1 : mycpu (mycpu.v), icache0 : icache (icache.v)]", 8, false); // B (F, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, thinpad_top (thinpad_top.v), mycpu_1 : mycpu (mycpu.v), icache0 : icache (icache.v)]", 8, false, false, false, false, false, true); // B (F, cr) - Double Click
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// WARNING: HTimer (ExpRunMgr Pending Runs Timer) is taking 533ms to process. Increasing delay to 3000 ms.
+// aj (cr): Bitstream Generation Completed: addNotify
+// Elapsed time: 478 seconds
+dismissDialog("Bitstream Generation Completed"); // aj (cr)

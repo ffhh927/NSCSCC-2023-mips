@@ -1,0 +1,239 @@
+/*
+
+Xilinx Vivado v2019.2 (64-bit) [Major: 2019, Minor: 2]
+SW Build: 2708876 on Wed Nov  6 21:40:23 MST 2019
+IP Build: 2700528 on Thu Nov  7 00:09:20 MST 2019
+
+Process ID (PID): 24972
+License: Customer
+
+Current time: 	Thu Aug 17 21:50:14 GMT+08:00 2023
+Time zone: 	GMT+08:00 (GMT+08:00)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1920x1080
+Screen resolution (DPI): 125
+Available screens: 1
+Available disk space: 48 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=15
+
+Java version: 	9.0.4 64-bit
+Java home: 	D:/vivado/Vivado/2019.2/tps/win64/jre9.0.4
+Java executable location: 	D:/vivado/Vivado/2019.2/tps/win64/jre9.0.4/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	HP
+User home directory: C:/Users/HP
+User working directory: E:/cpu/test
+User country: 	CN
+User language: 	zh
+User locale: 	zh_CN
+
+RDI_BASEROOT: D:/vivado/Vivado
+HDI_APPROOT: D:/vivado/Vivado/2019.2
+RDI_DATADIR: D:/vivado/Vivado/2019.2/data
+RDI_BINDIR: D:/vivado/Vivado/2019.2/bin
+
+Vivado preferences file location: C:/Users/HP/AppData/Roaming/Xilinx/Vivado/2019.2/vivado.xml
+Vivado preferences directory: C:/Users/HP/AppData/Roaming/Xilinx/Vivado/2019.2/
+Vivado layouts directory: C:/Users/HP/AppData/Roaming/Xilinx/Vivado/2019.2/layouts
+PlanAhead jar file location: 	D:/vivado/Vivado/2019.2/lib/classes/planAhead.jar
+Vivado log file location: 	E:/cpu/test/vivado.log
+Vivado journal file location: 	E:/cpu/test/vivado.jou
+Engine tmp dir: 	E:/cpu/test/.Xil/Vivado-24972-LAPTOP-7OB1NM4U
+
+Xilinx Environment Variables
+----------------------------
+XILINX: D:/vivado/Vivado/2019.2/ids_lite/ISE
+XILINX_DSP: D:/vivado/Vivado/2019.2/ids_lite/ISE
+XILINX_PLANAHEAD: D:/vivado/Vivado/2019.2
+XILINX_VIVADO: D:/vivado/Vivado/2019.2
+XILINX_VIVADO_HLS: D:/vivado/Vivado/2019.2
+
+
+GUI allocated memory:	154 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 643 MB
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bB (cr):  Open Project : addNotify
+// Opening Vivado Project: E:\cpu\test\thinpad_top.xpr. Version: Vivado v2019.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project E:/cpu/test/thinpad_top.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 80 MB (+81319kb) [00:00:12]
+// [Engine Memory]: 736 MB (+620550kb) [00:00:12]
+// [GUI Memory]: 97 MB (+13609kb) [00:00:13]
+// [GUI Memory]: 121 MB (+20580kb) [00:00:13]
+// [Engine Memory]: 774 MB (+739kb) [00:00:15]
+// WARNING: HEventQueue.dispatchEvent() is taking  3892 ms.
+// Tcl Message: open_project E:/cpu/test/thinpad_top.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/vivado/Vivado/2019.2/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 776 MB. GUI used memory: 58 MB. Current time: 8/17/23, 9:50:19 PM GMT+08:00
+// Tcl Message: open_project: Time (s): cpu = 00:00:17 ; elapsed = 00:00:07 . Memory (MB): peak = 803.246 ; gain = 158.898 
+// Project name: thinpad_top; location: E:/cpu/test; part: xc7a200tfbg676-2
+dismissDialog("Open Project"); // bB (cr)
+// a (cr): Critical Messages: addNotify
+// [Engine Memory]: 821 MB (+8662kb) [00:00:18]
+// Tcl Message: update_compile_order -fileset sources_1 
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (a)
+dismissDialog("Critical Messages"); // a (cr)
+// Elapsed time: 36 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, thinpad_top (thinpad_top.v)]", 3); // B (F, cr)
+// PAPropertyPanels.initPanels (pll_example.xci) elapsed time: 0.2s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, thinpad_top (thinpad_top.v), clock_gen : pll_example (pll_example.xci)]", 4, false); // B (F, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, thinpad_top (thinpad_top.v), clock_gen : pll_example (pll_example.xci)]", 4, false, false, false, false, false, true); // B (F, cr) - Double Click
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+// TclEventType: LOAD_FEATURE
+// O (cr):  Re-customize IP : addNotify
+// HMemoryUtils.trashcanNow. Engine heap size: 929 MB. GUI used memory: 58 MB. Current time: 8/17/23, 9:51:06 PM GMT+08:00
+// [Engine Memory]: 1,002 MB (+147442kb) [00:01:08]
+// r (cr): Re-customize IP: addNotify
+// WARNING: HEventQueue.dispatchEvent() is taking  1694 ms.
+dismissDialog("Re-customize IP"); // O (cr)
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "Output Clocks", 1); // cU (E, r)
+setText("CLKOUT1 REQUESTED OUT FREQ", "108"); // D (cV, r)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (r)
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_OBJECT_CHANGE
+dismissDialog("Re-customize IP"); // r (cr)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// r (cr): Re-customize IP: addNotify
+// TclEventType: FILESET_UPDATE_IP
+// bB (r):  Re-customize IP : addNotify
+// TclEventType: FILESET_UPDATE_IP
+// Tcl Message: set_property -dict [list CONFIG.CLKOUT1_REQUESTED_OUT_FREQ {108} CONFIG.MMCM_CLKFBOUT_MULT_F {43} CONFIG.MMCM_CLKOUT0_DIVIDE_F {10} CONFIG.MMCM_CLKOUT1_DIVIDE {12} CONFIG.CLKOUT1_JITTER {202.759} CONFIG.CLKOUT1_PHASE_ERROR {231.057} CONFIG.CLKOUT2_JITTER {208.075} CONFIG.CLKOUT2_PHASE_ERROR {231.057}] [get_ips pll_example] 
+// aI (cr): Generate Output Products: addNotify
+dismissDialog("Re-customize IP"); // bB (r)
+// TclEventType: FILE_SET_CHANGE
+// [GUI Memory]: 131 MB (+3143kb) [00:01:20]
+selectButton(PAResourceQtoS.SimpleOutputProductDialog_GENERATE_OUTPUT_PRODUCTS_IMMEDIATELY, "Generate"); // a (aI)
+// HOptionPane Warning: 'A background task is running. Please wait until it completes and try again. (Background Task)'
+selectButton("OptionPane.button", "OK"); // JButton (A, H)
+selectButton(PAResourceQtoS.SimpleOutputProductDialog_GENERATE_OUTPUT_PRODUCTS_IMMEDIATELY, "Generate"); // a (aI)
+// bB (cr):  Managing Output Products : addNotify
+// Tcl Message: generate_target all [get_files  E:/cpu/test/thinpad_top.srcs/sources_1/ip/pll_example/pll_example.xci] 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'pll_example'... INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'pll_example'... 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'pll_example'... INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'pll_example'... INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'pll_example'... 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: OOC_IP_CACHE_USED
+// TclEventType: PROJ_DESIGN_MODE_SET
+// Tcl Message: catch { config_ip_cache -export [get_ips -all pll_example] } 
+// Tcl Message: INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP pll_example, cache-ID = 4ac263c60276aa96; cache size = 29.050 MB. 
+// TclEventType: PROJ_DESIGN_MODE_SET
+// Tcl Message: export_ip_user_files -of_objects [get_files E:/cpu/test/thinpad_top.srcs/sources_1/ip/pll_example/pll_example.xci] -no_script -sync -force -quiet 
+// Tcl Message: create_ip_run [get_files -of_objects [get_fileset sources_1] E:/cpu/test/thinpad_top.srcs/sources_1/ip/pll_example/pll_example.xci] 
+// Tcl Message: INFO: [Vivado 12-3453] The given sub-design is up-to-date, no action was taken.  If a run is still desired, use the '-force' option for the file:'E:/cpu/test/thinpad_top.srcs/sources_1/ip/pll_example/pll_example.xci' 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// Tcl Message: export_simulation -of_objects [get_files E:/cpu/test/thinpad_top.srcs/sources_1/ip/pll_example/pll_example.xci] -directory E:/cpu/test/thinpad_top.ip_user_files/sim_scripts -ip_user_files_dir E:/cpu/test/thinpad_top.ip_user_files -ipstatic_source_dir E:/cpu/test/thinpad_top.ip_user_files/ipstatic -lib_map_path [list {modelsim=E:/cpu/test/thinpad_top.cache/compile_simlib/modelsim} {questa=E:/cpu/test/thinpad_top.cache/compile_simlib/questa} {riviera=E:/cpu/test/thinpad_top.cache/compile_simlib/riviera} {activehdl=E:/cpu/test/thinpad_top.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,032 MB. GUI used memory: 73 MB. Current time: 8/17/23, 9:51:41 PM GMT+08:00
+selectButton("OptionPane.button", "OK"); // JButton (A, G)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, thinpad_top (thinpad_top.v)]", 3, true); // B (F, cr) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, thinpad_top (thinpad_top.v)]", 3, true, false, false, false, false, true); // B (F, cr) - Double Click - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, thinpad_top (thinpad_top.v)]", 3); // B (F, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, thinpad_top (thinpad_top.v), SRAM_UART_ctrl_1 : SRAM_UART_ctrl (SRAM_UART_ctrl.v)]", 8, true); // B (F, cr) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, thinpad_top (thinpad_top.v), SRAM_UART_ctrl_1 : SRAM_UART_ctrl (SRAM_UART_ctrl.v), ext_uart_r : async_receiver (async.v)]", 9, true, false, false, false, false, true); // B (F, cr) - Double Click - Node
+selectCodeEditor("SRAM_UART_ctrl.v", 270, 84); // ch (w, cr)
+selectCodeEditor("SRAM_UART_ctrl.v", 294, 277); // ch (w, cr)
+selectCodeEditor("SRAM_UART_ctrl.v", 108, 180); // ch (w, cr)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("SRAM_UART_ctrl.v", 120, 239); // ch (w, cr)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (O, cr)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (cr): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// bB (cr):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // A (cr)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (cr): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+dismissDialog("Launch Runs"); // f (cr)
+// [Engine Memory]: 1,053 MB (+164kb) [00:02:12]
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// bB (cr):  Generate Bitstream : addNotify
+// TclEventType: RUN_MODIFY
+// HMemoryUtils.trashcanNow. Engine heap size: 1,058 MB. GUI used memory: 76 MB. Current time: 8/17/23, 9:52:16 PM GMT+08:00
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 8 
+// Tcl Message: INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'E:/cpu/test/thinpad_top.srcs/sources_1/ip/pll_example/pll_example.xci' is already up-to-date 
+// Tcl Message: [Thu Aug 17 21:52:16 2023] Launched synth_1... Run output will be captured here: E:/cpu/test/thinpad_top.runs/synth_1/runme.log [Thu Aug 17 21:52:16 2023] Launched impl_1... Run output will be captured here: E:/cpu/test/thinpad_top.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bB (cr)
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// aj (cr): Bitstream Generation Completed: addNotify
